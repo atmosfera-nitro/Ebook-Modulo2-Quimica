@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 9.7.6.18120 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>[E-book] [Nitro] Química - Nomenclatura de Compostos Orgânicos</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/viewer.js"></script>
+	
+	<script src=lms.js></script>
+	<script>
+		if (document.addEventListener) // IE9+
+		{
+			var book = "eNp1VF1u2zgQvgohoG+2EDt2YvuNlpjEjSK5lpxuEAQCLTMKsRLpJSkv2jjAXqB3aHeBFligT3sE3WRP0qGlOMVi80INv5n55ld8dAw3BXMmzi3prqT89Q7dhtwoeYfeVfX3kmcUdVEoSyaygppKUbRmyJPlRmojNYpUXv8peCa103E2NGcx/8i0M7l9dDRIIAzHQ7d/etIZDXruaHzXcRQVuVX0OqO7J7hrWhiIPzoiZHjik56HB4PjPpmOzwZ46vUGZExIzx8C/wPVgcxocc2U5lI4E6MqtofnVOvfpVo7k3taaMB4bwT6R4f4KY4v0zmO4/fRwk/9GQ6i83QWXuNg5r/gAZ6SALLASDPxAEXynBu6pkjUf0nEtKEok0oxQ12UMGEYEnJLSyu5kNkrYZ5ZfcvGEG3JNxTaSFeKK8vMUMG3Sk5ep5kH2CMXUeCTBZDFlqMx9nDo7QN4VGSsoKqBgwiD6f4zC1+y8CgUkFOxlv/+8bWxjC4Bh6PjzKcp9v10GkWXV3hxmV4Q3ITDa55Bs60bKqnK6Foqpv/HIyG/JGD/rtqbbmVW/23L41umUMEA66Cs4L9VtnVoJY1t7DNh05L9DeT6S84FdMhUtHDbSOfRoQ5qVP2lzeA5epwmeAq6q/9k6OOb+OC45rSFL6Ll4gV/0G2Uq1m4TMiLouTiWROFyUWDx6B4S4W7O2NbdwcB3R1eKStxd/e2EvYoAMulu4uZcXdRBUcowdhnH1u+MEqjZRLMQgJsIUy0KlH9XUCvWWPQatuy6k8/qeb4nBxSnLfNerNHw+XVlCzeNHYL4pEwCW7smIgPtmK/bVzANsPeNkbLEF/jGbAFJJ3iMIS9aQd5vZ+grv9BGwn/fGHHaBdVw59QIshXM7XldnjoPVu5r9PNksBWGVhntKlWBbcjAnegqDZSQU71Z6TYRsl1VX+zeyHv77sFF22ONyROyAJGeahaQv6l8wRPjpKGZeZMydKTmw9c5Icn4B4uTG0UF/Z5OT4l435/dNo9Go8H3eOT6Vn3hIx63f7wCB+NSG9w2htBNK6tQz4v6IcZxMgVNfuXpuWEvTKwXLGh0L8GfPoBkbizcg==";
+
+			document.addEventListener("DOMContentLoaded", function() {
+				PdfViewer.checkMobileIntegration(book);
+
+				var viewerInitCallback = function(viewer) {
+									(function(viewer){
+					var lms = iSpring.pdfviewer.LMS.instance();
+					lms.start(viewer);
+				
+					window.onunload = window.onbeforeunload = function()
+					{
+						lms.closeLms();
+					};
+				})(viewer)
+
+				};
+
+				var startupApplication = function(initViewerState) {
+					var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+					PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+				};
+
+				(function(startupFunc) {
+					if (startupFunc)
+					{
+						startupFunc(startupApplication);
+					}
+					else
+					{
+						startupApplication();
+					}
+				})(				function(startupApplication) {
+					var params = {
+						docId: "",
+						flags: 0,
+						resumeMode: "always",  
+						tincan:
+						{
+							endPoint: "",
+							auth:
+							{
+								type: "",
+								key: "",
+								login: "",
+								password: "",
+								name: "",
+								email: ""
+							},
+							i18n:{
+				}
+						},
+						scorm2004:
+						{
+							edition: "2"
+						}
+					};
+				
+					var lms = iSpring.pdfviewer.LMS.create("2004", params);
+					lms.initialize(startupApplication);
+				}
+);
+			});
+		}
+		else
+		{
+			location.replace("data/html5-unsupported.html");
+		}
+	</script>
+</head>
+<body></body>
+</html>
